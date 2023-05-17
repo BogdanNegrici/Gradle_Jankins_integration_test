@@ -1,0 +1,68 @@
+task task1 {
+    doLast {
+        println 'Task 1 executed!'
+    }
+}
+
+task task2 {
+    dependsOn task1
+    doLast {
+        println 'Task 2 executed!'
+    }
+}
+
+task task3 {
+    dependsOn task2
+    doLast {
+        println 'Task 3 executed!'
+    }
+}
+
+task task4 {
+    dependsOn task3
+    doLast {
+        println 'Task 4 executed!'
+    }
+}
+
+task task5 {
+    dependsOn task4
+    doLast {
+        println 'Task 5 executed!'
+    }
+}
+
+task task6 {
+    dependsOn task5
+    doLast {
+        println 'Task 6 executed!'
+    }
+}
+
+task task7 {
+    dependsOn task6
+    doLast {
+        println 'Task 7 executed!'
+    }
+}
+
+task task8 {
+    dependsOn task7
+    doLast {
+        println 'Task 8 executed!'
+    }
+}
+
+task task9 {
+    dependsOn task8
+    doLast {
+        println 'Task 9 executed!'
+    }
+}
+
+task task10 {
+    dependsOn task9
+    doLast {
+        println 'Task 10 executed!'
+    }
+}
