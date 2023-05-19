@@ -67,9 +67,3 @@ task task10 {
     }
 }
 
-task task11 {
-    dependsOn task10
-    doLast {
-        println 'Task 11 executed!'
-    }
-}
